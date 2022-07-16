@@ -27,10 +27,14 @@ To do this, I click on get data, then select text/csv
 
 
 after that, I locate where the csv file is on my system
+
 ![2022-07-16 (1)](https://user-images.githubusercontent.com/107118603/179372393-83aeb77e-5a1e-4ddd-979e-0f0086429029.png)
+
+
 
 I click on transform data to clean the data
 ![2022-07-16 (2)](https://user-images.githubusercontent.com/107118603/179372447-bf75963e-eab8-4918-b246-83393848f37b.png)
+
 
 
 the table was cleaned to remove all duplicate and error values.
@@ -46,30 +50,45 @@ To do this;
 click on transform,click on drop down beside remove rows, this will enable you to remove blank, null, duplicate and error values.
 ![2022-07-16 (13)](https://user-images.githubusercontent.com/107118603/179372681-a24606fb-9c6b-4ee3-9b18-47abaeb84e2d.png)
 
+
+
 After doing this, i realised there are null values in the data, then i proceed to replace all the null values to 0.
 I click on Transform in the query pane, Select Replace value, and it prompts a dialogue box asking for value to find and what to replace it with.
 ![2022-07-16 (14)](https://user-images.githubusercontent.com/107118603/179372820-d69e3f33-0263-4506-95d5-b35f0ad5b8a5.png)
+
 ![2022-07-16 (15)](https://user-images.githubusercontent.com/107118603/179372895-a2b5b993-0cba-4f1d-828c-6beb0a0e853d.png)
+
+
 
 
 When i click on close and apply, the delayed dataset rows is much and it display some errors, i rightclick on the delayed dataset, edit and it direct me to query page.
 ![2022-07-16 (16)](https://user-images.githubusercontent.com/107118603/179372919-17636d3c-574f-4c83-8b87-e181873b3390.png)
 
+
+
 I click on Home, keep rows and input the rows i want.
 ![2022-07-16 (17)](https://user-images.githubusercontent.com/107118603/179372986-bb12685e-eae1-4e90-b0fe-b4893cce06eb.png)
+
+
 
 Yes!!!
 The dataset is reduced to exact rows as in Airline and the file was saved as an Excel file.
 ![2022-07-16 (18)](https://user-images.githubusercontent.com/107118603/179373038-6bd28f71-dbd9-4e9c-8b4b-3412684a5f48.png)
 
 
+
+
 ####It's time for Microsoft PowerBi
 ![2022-07-16 (19)](https://user-images.githubusercontent.com/107118603/179373077-761cab89-dbc3-4d15-ad54-a2e0d672119a.png)
+
+
 
 Dont forget i save my data as excel file on my sytem, its time to bring it in here.
 To get data from Excel file i followed the following steps;
 Home, getdata and select Excelworkbook.
 ![2022-07-16 (20)](https://user-images.githubusercontent.com/107118603/179373147-cfc9bba0-7b79-487e-b4e7-490ef28f6aad.png)
+
+
 
 locate where the file is
 ![2022-07-16 (21)](https://user-images.githubusercontent.com/107118603/179373155-35049da8-c8b4-46dd-b656-78aec844e440.png)
@@ -80,11 +99,17 @@ Note: while i was opening my data on excel i click on transform data to clean my
 I had to choose the table i want to work with and I chose both  Airline and delayed flights tables...
 ![2022-07-16 (22)](https://user-images.githubusercontent.com/107118603/179373186-4f608b64-1347-4db5-b101-64de1dc62379.png)
 
+
+
 My dataset is loading...
 ![2022-07-16 (23)](https://user-images.githubusercontent.com/107118603/179373224-0778d578-4cf8-4f1a-971c-ad745e4154f1.png)
 
+
+
 I design the dashboard format in my notebook then later design the layout here
 ![2022-07-16 (26)](https://user-images.githubusercontent.com/107118603/179373352-331479cb-f04a-4317-b17a-0d134cf4c884.png)
+
+
 
 
 also, some calculated measures were obtained such as;
@@ -97,6 +122,7 @@ also, some calculated measures were obtained such as;
 ![2022-07-16 (28)](https://user-images.githubusercontent.com/107118603/179373364-0316fe98-7805-4b1e-8ebf-43e81ad0ce06.png)
 
 
+
 •	Total flights :( Delay flights) + (flights on time)
 ![2022-07-16 (30)](https://user-images.githubusercontent.com/107118603/179373381-789971ac-262b-42a0-9194-dcc552f60c9e.png)
 
@@ -105,13 +131,19 @@ also, some calculated measures were obtained such as;
 •	Delay Index: This is the percentage of delay and it was calculated by ( Delay flights /Total flights) * 100
 ![2022-07-16 (31)](https://user-images.githubusercontent.com/107118603/179373389-47469afa-33d0-46a2-a84f-de37975474dd.png)
 
+
+
 •	Delayed dataset that was imported and cleaned have six attributes which are the causes of delay flights. The attributes are; carrier delay, weather delay, NAS delay, late aircraft delay, arrival delay and departure delay.
+
 
 
 #### Yes!!! it's time to tell a story
 This is the first page in which you can navigate to view any of the pages.
 There are 4 buttons there,Delay report, Flight report, and Dashboard. when you click on any button it will direct you to a specific page as it was been set by the button action. 
+
 ![2022-07-16 (33)](https://user-images.githubusercontent.com/107118603/179371759-ddd115de-cd9c-4f34-80f9-02272acc2090.png)
+
+
 
 
 #### This second image answer the following questions...
@@ -121,7 +153,10 @@ Which Airline has the most delayed flight?
 Which Airline is best to fly?
 What is the frequency of delay per year?
 What is the frequency of flights per weekday?
+
 ![2022-07-16 (34)](https://user-images.githubusercontent.com/107118603/179371769-1fd48324-3ec7-4e80-9721-7aec3432c51d.png)
+
+
 
 
 #### This page gives review to
@@ -130,12 +165,19 @@ Airport with the highest frequency of delay.
 The Average Length of flight by Airlines. 
 The Average Time of flight by Airlines. 
 The percentage of delay to flight on time.
+
 ![2022-07-16 (35)](https://user-images.githubusercontent.com/107118603/179371788-d481961b-3bdf-4850-947e-07d84acaf05d.png)
+
+
 
 
 #### Dashboard 
 This will help you track identified pattern with delayed flights as it display all the answers to the earlier stated questions.
+
 ![2022-07-16 (36)](https://user-images.githubusercontent.com/107118603/179371790-d8789bda-e8ad-4925-b8fb-85b677d59dec.png)
+
+
+
 
 ### DATA INSIGHTS
 From this analysis, we can infer that;
