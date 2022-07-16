@@ -52,8 +52,8 @@ the table was cleaned to remove all duplicate and error values.
 
 
 I impoterd delayed data set from kaggle to predict causes of airline delay, alighted the columns needed and unpivot others.
+![2022-07-16 (10)](https://user-images.githubusercontent.com/107118603/179373650-95abca98-51e3-4c11-b703-ee1581bfe908.png)
 
-![2022-07-16 (10)](https://user-images.githubusercontent.com/107118603/179372556-ef1e70f2-b24b-455f-9310-cb8e9a2491a1.png
 
 
 
