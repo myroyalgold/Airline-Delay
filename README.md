@@ -6,7 +6,7 @@ A flight delay is when an airline flight takes off and/or lands later than its s
 The purpose of this data set is for predicting whether a given flight will be delayed, and telling a story about the entire flight experience.
 
 ### PROBLEM OBJECTIVES
-*What has been the history of flight experiences in the past?
+- What has been the history of flight experiences in the past?
 *How bad was delayed flights?
 *Any identified pattern with delayed flights?
 *Which Airline has the most delayed flight?
