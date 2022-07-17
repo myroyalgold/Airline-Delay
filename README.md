@@ -170,7 +170,7 @@ also, some calculated measures were obtained such as;
 
 #### Yes!!! it's time to tell a story
 This is the first page in which you can navigate to view any of the pages.
-There are 4 buttons there,Delay report, Flight report, and Dashboard. when you click on any button it will direct you to a specific page as it was been set by the button action. 
+There are 3 buttons there,Delay report, Flight report, and Dashboard. when you click on any button it will direct you to a specific page as it was been set by the button action. 
 
 ![2022-07-16 (33)](https://user-images.githubusercontent.com/107118603/179371759-ddd115de-cd9c-4f34-80f9-02272acc2090.png)
 
