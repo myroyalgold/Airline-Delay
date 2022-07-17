@@ -7,13 +7,13 @@ The purpose of this data set is for predicting whether a given flight will be de
 
 ### PROBLEM OBJECTIVES
 - What has been the history of flight experiences in the past?
-*How bad was delayed flights?
-*Any identified pattern with delayed flights?
-*Which Airline has the most delayed flight?
-*Which Airline is best to fly?
-*Which Airport has the highest frequency of delay?
-*What is the Average Length and Time Flight by Airlines?
-*What is the percentage of delay to flight on time?
+- How bad was delayed flights?
+- Any identified pattern with delayed flights?
+- Which Airline has the most delayed flight?
+- Which Airline is best to fly?
+- Which Airport has the highest frequency of delay?
+- What is the Average Length and Time Flight by Airlines?
+- What is the percentage of delay to flight on time?
 
 
 ### DATA SOURCING
@@ -97,7 +97,7 @@ The dataset is reduced to exact rows as in Airline and the file was saved as an 
 
 
 
-####It's time for Microsoft PowerBi
+#### It's time for Microsoft PowerBi
 
 ![2022-07-16 (19)](https://user-images.githubusercontent.com/107118603/179373077-761cab89-dbc3-4d15-ad54-a2e0d672119a.png)
 
@@ -140,31 +140,31 @@ I design the dashboard format in my notebook then later design the layout here
 
 
 also, some calculated measures were obtained such as;
-•	Delay flights: (Where delay value equals 1) which was obtained by filtering and counting all the values of 1[ i.e. True ] in Delay columns.
+- Delay flights: (Where delay value equals 1) which was obtained by filtering and counting all the values of 1[ i.e. True ] in Delay columns.
 
 ![2022-07-16 (27)](https://user-images.githubusercontent.com/107118603/179373340-b9991692-5684-49c0-9e9d-5ac1b887517b.png)
 
 
 
-•	Flight on time: This was obtained by filtering and counting all the values of 0 in delay columns.
+- Flight on time: This was obtained by filtering and counting all the values of 0 in delay columns.
 
 ![2022-07-16 (28)](https://user-images.githubusercontent.com/107118603/179373364-0316fe98-7805-4b1e-8ebf-43e81ad0ce06.png)
 
 
 
-•	Total flights :( Delay flights) + (flights on time)
+- Total flights :( Delay flights) + (flights on time)
 
 ![2022-07-16 (30)](https://user-images.githubusercontent.com/107118603/179373381-789971ac-262b-42a0-9194-dcc552f60c9e.png)
 
 
 
-•	Delay Index: This is the percentage of delay and it was calculated by ( Delay flights /Total flights) 
+- Delay Index: This is the percentage of delay and it was calculated by ( Delay flights /Total flights) 
 
 ![2022-07-16 (31)](https://user-images.githubusercontent.com/107118603/179373389-47469afa-33d0-46a2-a84f-de37975474dd.png)
 
 
 
-•	Delayed dataset that was imported and cleaned have six attributes which are the causes of delay flights. The attributes are; carrier delay, weather delay, NAS delay, late aircraft delay, arrival delay and departure delay.
+- Delayed dataset that was imported and cleaned have six attributes which are the causes of delay flights. The attributes are; carrier delay, weather delay, NAS delay, late aircraft delay, arrival delay and departure delay.
 
 
 
@@ -183,12 +183,12 @@ Interact with the buttons
 
 
 #### This second image answer the following questions...
-How bad was delayed flights per weekday?
-What is the total delayed flights?
-Which Airline has the most delayed flight?
-Which Airline is best to fly?
-What is the frequency of delay per year?
-What is the frequency of flights per weekday?
+- How bad was delayed flights per weekday?
+- What is the total delayed flights?
+- Which Airline has the most delayed flight?
+- Which Airline is best to fly?
+- What is the frequency of delay per year?
+- What is the frequency of flights per weekday?
 
 ![2022-07-16 (34)](https://user-images.githubusercontent.com/107118603/179371769-1fd48324-3ec7-4e80-9721-7aec3432c51d.png)
 
@@ -217,14 +217,14 @@ This will help you track identified pattern with delayed flights as it display a
 
 ### DATA INSIGHTS
 From this analysis, we can infer that;
-•	There was a total of 539,383 Total flights by different 18 Airlines.
-•	240,264 was recorded as the delayed flights.
-•	299,119 was recorded as the flight on time.
-•	In 1899 there was a total of 34,030 flight delay, while in 1900, total delayed flights of 206,234 was recorded.
-•	The most delayed Airline is WN.
-•	FL Airline spends more time, CO Airline is flights  for longer distance.
-•	HA Airline is recommended as the best Airline to fly because it has the least number of flight delay.
-•	DelayIndex/Percentage is 45% while that of flight on time is 55%.
+- There was a total of 539,383 Total flights by different 18 Airlines.
+-	240,264 was recorded as the delayed flights.
+-	299,119 was recorded as the flight on time.
+-	In 1899 there was a total of 34,030 flight delay, while in 1900, total delayed flights of 206,234 was recorded.
+-	The most delayed Airline is WN.
+-	FL Airline spends more time, CO Airline is flights  for longer distance.
+-	HA Airline is recommended as the best Airline to fly because it has the least number of flight delay.
+-	DelayIndex/Percentage is 45% while that of flight on time is 55%.
 NOTE: Source Airport is also known as Airport from and Desination Airport is Airport to.
 
 
@@ -237,8 +237,8 @@ Full meaning of abbreviations used for Airlines and Airports.
 
 
 ### RECOMMENDATION 
-•	I found out that People flights with the most delayed Airlines.
-•	It is better to book an early flight to avoid arrival and departure delay.
-•	Airlines can reduced delays by inflating the scheduled time of the flight
-•	Schedule your flights for weekends to avoid delay.
-•	Weather Analysis should be done before Airline moves.
+-	I found out that People flights with the most delayed Airlines.
+-	It is better to book an early flight to avoid arrival and departure delay.
+-	Airlines can reduced delays by inflating the scheduled time of the flight
+-	Schedule your flights for weekends to avoid delay.
+-	Weather Analysis should be done before Airline moves.
