@@ -21,7 +21,10 @@ This data is a capstone dataset given by OYINBOOKE After the completion of #30da
 
 ### DATA TRANSFORMATION
 This data was imported as a csv file on Excel.
-To do this, I click on get data, then select text/csv 
+To do this;
+- I click on get data, then select text/csv
+
+
 
 ![2022-07-16](https://user-images.githubusercontent.com/107118603/179371695-2dd042da-b670-45db-8eb6-d203569cc836.png)
 
@@ -44,7 +47,7 @@ I click on transform data to clean the data
 
 
 
-the table was cleaned to remove all duplicate and error values.
+The table was cleaned to remove all duplicate and error values.
 
 ![2022-07-16 (3)](https://user-images.githubusercontent.com/107118603/179372481-bdae3409-6ce1-484c-a982-80bb87eac73d.png)
 
@@ -58,16 +61,17 @@ I impoterd delayed data set from kaggle to predict causes of airline delay, alig
 
 
 
-i removed all the duplicate and error values in the dataset.
+I removed all the duplicate and error values in the dataset.
 To do this;
-click on transform,click on drop down beside remove rows, this will enable you to remove blank, null, duplicate and error values.
+- click on transform
+- click on drop down beside remove rows, this will enable you to remove blank, null, duplicate and error values.
 
 ![2022-07-16 (13)](https://user-images.githubusercontent.com/107118603/179372681-a24606fb-9c6b-4ee3-9b18-47abaeb84e2d.png)
 
 
 
 
-After doing this, i realised there are null values in the data, then i proceed to replace all the null values to 0.
+After doing this, I realised there are null values in the data, then i proceed to replace all the null values to 0.
 I click on Transform in the query pane, Select Replace value, and it prompts a dialogue box asking for value to find and what to replace it with.
 ![2022-07-16 (14)](https://user-images.githubusercontent.com/107118603/179372820-d69e3f33-0263-4506-95d5-b35f0ad5b8a5.png)
 
@@ -76,7 +80,7 @@ I click on Transform in the query pane, Select Replace value, and it prompts a d
 
 
 
-When i click on close and apply, the delayed dataset rows is much and it display some errors, i rightclick on the delayed dataset, edit and it direct me to query page.
+When i click on close and apply, the delayed dataset rows is much and it display some errors, I rightclick on the delayed dataset, edit and it direct me to query page.
 
 ![2022-07-16 (16)](https://user-images.githubusercontent.com/107118603/179372919-17636d3c-574f-4c83-8b87-e181873b3390.png)
 
@@ -104,8 +108,8 @@ The dataset is reduced to exact rows as in Airline and the file was saved as an 
 
 
 
-Dont forget i save my data as excel file on my sytem, its time to bring it in here.
-To get data from Excel file i followed the following steps;
+Don't forget i save my data as excel file on my sytem, its time to bring it in here.
+To get data from Excel file I followed the following steps;
 Home, getdata and select Excelworkbook.
 
 ![2022-07-16 (20)](https://user-images.githubusercontent.com/107118603/179373147-cfc9bba0-7b79-487e-b4e7-490ef28f6aad.png)
@@ -175,8 +179,9 @@ There are 3 buttons there,Delay report, Flight report, and Dashboard. when you c
 ![2022-07-16 (33)](https://user-images.githubusercontent.com/107118603/179371759-ddd115de-cd9c-4f34-80f9-02272acc2090.png)
 
 
-Interact with the buttons
-[AIRLINEDELAYVISUAL.pptx](https://github.com/myroyalgold/Airline-Delay/files/9126701/AIRLINEDELAYVISUAL.pptx)
+Interact with the buttons here
+https://app.powerbi.com/links/N-BErv-K-P?ctid=f0a1607d-d288-48a8-a077-1a73828bb09d&pbi_source=linkShare
+
 
 
 
