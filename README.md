@@ -63,8 +63,8 @@ I impoterd delayed data set from kaggle to predict causes of airline delay, alig
 
 I removed all the duplicate and error values in the dataset.
 To do this;
-- click on transform
-- click on drop down beside remove rows, this will enable you to remove blank, null, duplicate and error values.
+- Click on transform
+- Click on drop down beside remove rows, this will enable you to remove blank, null, duplicate and error values.
 
 ![2022-07-16 (13)](https://user-images.githubusercontent.com/107118603/179372681-a24606fb-9c6b-4ee3-9b18-47abaeb84e2d.png)
 
@@ -108,7 +108,7 @@ The dataset is reduced to exact rows as in Airline and the file was saved as an 
 
 
 
-Don't forget i save my data as excel file on my sytem, its time to bring it in here.
+Don't forget I saved my data as excel file on my system, its time to bring it in here.
 To get data from Excel file I followed the following steps;
 Home, getdata and select Excelworkbook.
 
@@ -117,12 +117,12 @@ Home, getdata and select Excelworkbook.
 
 
 
-locate where the file is
+Locate where the file is
 
 ![2022-07-16 (21)](https://user-images.githubusercontent.com/107118603/179373155-35049da8-c8b4-46dd-b656-78aec844e440.png)
 
 
-Note: while i was opening my data on excel i click on transform data to clean my dataset but here i select load because the data was already cleaned and formated.
+Note: While i was opening my data on excel i click on transform data to clean my dataset but here i select load because the data was already cleaned and formated.
 
 I had to choose the table i want to work with and I chose both  Airline and delayed flights tables...
 
